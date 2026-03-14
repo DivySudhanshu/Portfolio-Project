@@ -1,0 +1,64 @@
+<html>
+<head>
+    <style>
+        body{
+            margin:20px;
+            padding: 20px;
+        }
+        .link-container{
+            text-align: left;
+            margin-bottom: 19px;
+        }
+        .link-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #0077ff, #00ffaa);
+            color: white;
+            text-decoration: none;
+            border-radius : 25px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-bottom: 10px;
+        }
+        .link-container a:hover{
+            background : linear-gradient(45deg, red, yellow);
+            transform: scale(1.1);
+        }
+        .moving-text{
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+        .moving-text span{
+            display: inline-block;
+            padding-left: 100%;
+            animation: move 15s linear infinite;
+            font-size: 24px;
+            font-weight: bold;
+            color: #0077ff;
+        }
+        @keyframes move {
+           0%  { transform: translateX(100%); }
+           100% { transform: translateX(-100%); }
+        }
+    </style>
+    <body style ="background-image:url('Web crafters.jpeg');background-position: right;background: cover;background-repeat: no-repeat;" alink="white" link="red" vlink="black">
+        <center><p style="font-size: 80px;color:rgb(161, 52, 161);">WELCOME!</p>
+        </center>
+            <div style="color: red;" class ="moving-text">
+                <span> Hi Everyone😄.This project-"PERSONAL PORTFOLIO" is to give all the personal details of the students.Hope you like it.✨
+                </span>
+            </div>
+            <font size="25" color="orange">Our Team Members : </font>
+     <div class="link-container">       
+<a href="Kshitij.html">Kshitij Shukla</a>
+<br> <a href="Divy.html">Divy Kumar Sudhanshu</a>
+ <br><a href="Karan.html">Karan Agrawal</a>
+ <br><a href="Gaurav.html">Gaurav Kushwaha </a>
+
+       </div>
+    </body>
+</head>
+</html>    
